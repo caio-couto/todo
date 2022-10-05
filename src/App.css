@@ -1,5 +1,70 @@
 .container
 {
     margin: auto;
-    max-width: 900px;
+    max-width: 600px;
+}
+.done
+{
+    text-decoration: line-through;
+}
+ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.item
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.card
+{
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addButton
+{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.modal
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.049);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardModal
+{
+    padding: 20px;
+    background-color: white;
+}
+.hide
+{
+    display: none;
 }
